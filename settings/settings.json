@@ -1,0 +1,19 @@
+{
+    "csvDateFormat": "M/D/YY",
+    "csvSeparator": ";",
+    "csvHeaders": ["MEMO", "DTPOSTED", "OMIT-HOUR", "TRNAMT", "BALAMT", "OMIT-CARDTYPE"],
+    "csvFile": "sample-data/sample.csv",
+    "template": {
+        "bankId": "123",
+        "accountId": "123456",
+        "currDate": ""
+    },
+    "txTemplate": {
+        "TRNTYPE": "",
+        "DTPOSTED": "{date}100000[-03:EST]",
+        "TRNAMT": "0",
+        "FITID": "{date}{id}",
+        "CHECKNUM": "{date}{id}",
+        "MEMO": ""
+    }
+}

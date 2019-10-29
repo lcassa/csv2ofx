@@ -1,0 +1,25 @@
+{
+  "name": "csv2ofx",
+  "version": "0.0.1",
+  "description": "Converts csv files to ofx based on templates",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "ofx",
+    "banking",
+    "csv",
+    "template"
+  ],
+  "author": "Leandro Cassa",
+  "license": "ISC",
+  "dependencies": {
+    "csv-parser": "^2.3.1",
+    "moment": "^2.24.0",
+    "ofx": "^0.4.0",
+    "string-template": "^1.0.0",
+    "yargs": "^14.2.0"
+  }
+}
